@@ -1,5 +1,4 @@
 * {
-    transform: translateZ(0);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -box-sizing: border-box
@@ -28,6 +27,7 @@ form {
 }
 
 .mover {
+    transform: translateZ(0);
     position: fixed;
     width: 256px;
     z-index: -1

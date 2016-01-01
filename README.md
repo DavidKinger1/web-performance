@@ -13,6 +13,9 @@ Improvements added to Web Site
 
 3) Function changes
 
+function changeSliderLabel(size)
+// Changed document.querySelectore to document.getElementByID and removed leading #
+
 function updatePositions()
 // declared top = document height
 // declared phase outside of loop
@@ -20,7 +23,8 @@ function updatePositions()
 // calculate approximate number of pizzas needed according to viewport height and width
 
 function changePizzaSizes()
-Moved static calculations pizzaDiv, numPizzas, dx, and newwidth out of for loop;
+// Moved static calculations pizzaDiv, numPizzas, dx, and newwidth out of for loop
+// retrieved objects of randomPizzas ID outside of loop and stored in container var
 
 event window.addEventListener
 stored common element img in d outside of for loop. 

@@ -37,3 +37,9 @@ stored common element img in d outside of for loop.
 
 7) replaced querySelector with getElementById for ID queries as the later call is faster
 
+8) added -webkit- and -ms to translateZ(0); for CSS .mover
+
+9) calculated background pizzas by using window.inner(Height/Width) to scale the number with the viewport.
+
+10) Fixed typo in main.js dx was using wrong syntax and parameter to:
+  var dx = determineDx(container[0],size);

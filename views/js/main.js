@@ -17,7 +17,11 @@ Cameron Pittman, Udacity Course Developer
 cameron *at* udacity *dot* com
 */
 
+<<<<<<< HEAD
 
+=======
+/*jshint strict:false */
+>>>>>>> 8a7ddc782e209c42689dd14a5a4bf85c2b0d311a
 // As you may have realized, this website randomly generates pizzas.
 // Here are arrays of all possible pizza ingredients.
 var pizzaIngredients = {};

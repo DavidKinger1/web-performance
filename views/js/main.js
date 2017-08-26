@@ -561,7 +561,7 @@ function updatePositions() {
     window.performance.measure("measure_frame_duration", "mark_start_frame", "mark_end_frame");
 
     if (frame % 10 === 0) {
-        var timesToUpdatePosition = window.performance.getEntriesByName("measure_frame_duration");
+        timesToUpdatePosition = window.performance.getEntriesByName("measure_frame_duration");
         logAverageFrame(timesToUpdatePosition);
     }
 }
@@ -584,7 +584,7 @@ document.addEventListener('DOMContentLoaded', function()
     var numPizzasToDraw = cols * rows;
   
   for (var i = 0; i < numPizzasToDraw; i++) {
-    var elem = document.createElement('img');
+    elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
